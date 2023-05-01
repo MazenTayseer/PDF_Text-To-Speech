@@ -44,7 +44,7 @@ options.add_extension(
 
 driver = webdriver.Chrome(options=options)
 
-driver.get("file:///D:/Python/TTS/pdf.pdf")
+driver.get("path/to/pdf")
 
 time.sleep(7)
 
